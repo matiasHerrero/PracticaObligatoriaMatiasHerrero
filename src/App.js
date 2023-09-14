@@ -1,5 +1,5 @@
-
-import Table from "./Practica 1/Components/Practica2/Table";
+import Table from "./practica/Components/Practica2/Table";
+import Login from "./practica/Components/practica3/Login";
 
 const netIncomes = [
   { brand: "McDonalds", income: 1291283 },
@@ -10,8 +10,10 @@ const netIncomes = [
 function App() {
   return (
     <div>
-      
-      <Table netIncomes={netIncomes} />
+       <h3>Practica Obligatoria 2</h3>
+      <Table netIncomes={netIncomes} /> 
+      <h3>Practica 3</h3>
+      <Login/>
     </div>
   );
 }
